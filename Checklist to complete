@@ -1,0 +1,12 @@
+implement the Affine Cipher that provides both encryption and decryption operations. -DONE
+a and b are your private encryption keys. These keys will also be used during decryption -DONE
+user the option to either encrypt or decrypt a plaintext that is chosen from the English alphabet
+The user should be prompted to enter a plaintext and arbitrary keys (a and b with gcd(a, 26) = 1) to be used in the encryption process
+will convert each character of your plaintext into an integer between 0 and 25. 
+Then you should encrypt/decrypt the sequence. After the process, you will again convert the numbers into letters (A for 0, B for 1, C for 2, and soon). 
+The output should be text printed to console. -DONE
+letters should be first converted to their uppercase equivalents before encryption and decryption. 
+White spaces should be maintained while all other characters should be discarded
+elegant program that minimizes the repetition of common code.
+Comments should be used to explain everything not obvious from the code -DONE
+A flow diagram for encryption and decryption program should be provided as well (functional design) where it contains a diagram of the functions you have implemented.                                                                                                            
